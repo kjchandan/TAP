@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseduo element selector</title>
+    <style>
+        p::first-letter{
+            font-size: 30px;
+            font-family: cursive;
+            color: brown;
+        }
+        p::first-line{
+            background-color: lightblue;
+        }
+        p::before{
+            content: url(butterfly.png);
+        }
+        p::after{
+            content: url(butterfly.png);
+        }
+    </style>
+</head>
+<body>
+    <p>Hii am chandankj , i am gud student. <br>
+        Hii am chandankj , i am gud student. <br>
+        Hii am chandankj , i am gud student. <br> </p>
+</body>
+</html>

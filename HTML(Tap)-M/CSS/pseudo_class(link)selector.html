@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psedo class selector</title>
+    <style>
+        /*Change default color of UNVISITED link*/
+        a:link{
+            color: green;
+        }
+        /*Change default color of VISITED link*/
+        a:visited{
+            color: brown;
+        }
+        /*Change default color of ACTIVE link*/
+        a:active{
+            color: blue;
+        }
+        a{
+            border: 3px solid black;
+            /*Remove underline for link*/
+            text-decoration:none;
+            background-color: grey;
+        }
+        /*Change color when cursor moved on it*/
+        a:hover{
+            background-color:antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://sjcit.ac.in/">Visit SJCIT</a>
+</body>
+</html>

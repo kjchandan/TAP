@@ -1,0 +1,31 @@
+/*id attribute(Preceded by Hash before)*/
+#one{
+    text-align: center;
+    font-family:cursive;
+    border: 3px solid red;
+}
+/*class attribute(Preceded by dot before)*/
+.p1{
+    text-align: right;
+    font-size: 30px;
+}
+/*Element selector(Apply styling by using id for selecting element)*/
+pre{
+    text-align: center;
+    font-size: 15px;
+}
+/*Group Selector(ALl the selected elemets,apply same styling)*/
+p,pre{
+    text-align: right;
+    background-color: lightblue;
+    border: 4px solid red;
+}
+/*Universal selector(All the element, apply same styling)*/
+*{
+text-align: center;
+font-size: 40px;
+border: 4px,solid,red;
+font-family: cursive;
+background-color: yellowgreen;
+
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student_details</title>
+</head>
+<body bgcolor="grey">
+    <h1>Action tag means it redirects to other web or the data is proceesed and stored(Click submit)</h1>
+    <form action="https://sjcit.ac.in/">
+
+    <fieldset>
+        <legend>Personnel Details</legend>
+        <h1>INPUT->id(Identify uniquely and give connection), name(Make as team and select only one-Radiobuttons)</h1>
+        <h2>required(mandatory field and notify if it is blank), placeholder->particular place one example</h2>
+        <h2>Fieldset->One part in the form->Legend-heading for this part</h2>
+        <label for="fname">FIRST_NAME</label>
+        <input type="text" id="fname"required name="fname" placeholder="Chandan"> <br><br>
+
+        <label for="lname">LAST_NAME</label>
+        <input type="text" required id="lname" name="lname" placeholder="K J"> <br><br>
+
+        <label for="age">AGE</label>
+        <input type="number" id="age" required name="age" placeholder="21"> <br><br>
+
+        <label for="email">EMAIL</label>
+        <input type="email" id="email" required name="email" placeholder="example@gmail.com"> <br><br>
+
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" required name="dob"> 
+
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Education Details</legend>
+        
+        <h1>RADIO BUTTONS</h1>
+        <h1>Mention radio inside input type,inside input->name:Make as team(all same name) and select only one as Radio button</h1>
+        <label for="">DEPARTMENT : </label> <br>
+        <input type="radio" id="cs" name="department">
+        <label for="">CS</label> 
+
+        <input type="radio" id="is" name="department">
+        <label for="">IS</label>
+
+        <input type="radio" id="ec" name="department">
+        <label for="">EC</label>
+
+        <input type="radio" id="mech" name="department">
+        <label for="">MECH</label> <br><br>
+
+        <hr>
+
+        <h1>DROPDOWN LIST</h1>
+        <h1>input list="name" and datalist id="name" should be same(Dont confuse)(input list->datalist id->option)</h1>
+        <label for="">GRADUATION YEAR</label>
+        <input list="yograduation" id="yop" name="yop">
+        <datalist id="yograduation">
+            <option> 2017 </option>
+            <option> 2018 </option>
+            <option> 2019 </option>
+            <option> 2020 </option>
+            <option> 2021 </option>
+            <option> 2022 </option>
+            <option> 2023 </option>
+        </datalist>
+
+        <hr>
+
+        <h1>CHECKBOX</h1>
+        <h1>Mention checkbox in input type</h1>
+        <label for="">SKILL</label><br>
+        <input type="checkbox" id="html" name="html">
+        <label for="">HTML</label><br>
+        <input type="checkbox" id="css" name="css">
+        <label for="">CSS</label><br>
+        <input type="checkbox" id="js" name="js">
+        <label for="">Javascript</label>
+    
+    </fieldset>
+    <input type="submit">
+
+    </form>
+</body>
+</html>
